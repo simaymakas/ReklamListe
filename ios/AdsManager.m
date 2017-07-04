@@ -22,9 +22,7 @@ RCT_EXPORT_MODULE()
   
   myView = [[UIView alloc] init];
   
-  UILabel *lbl =[[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
-  //lbl.autoresizingMask = myView.autoresizingMask;
-  lbl.text = @"test";
+  
   
   [mpuBanner loadBanner];
   return myView;
