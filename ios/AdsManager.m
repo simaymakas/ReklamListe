@@ -21,9 +21,6 @@ RCT_EXPORT_MODULE()
   mpuBanner.bannerWidth = 320;
   
   myView = [[UIView alloc] init];
-  
-  
-  
   [mpuBanner loadBanner];
   return myView;
 }
